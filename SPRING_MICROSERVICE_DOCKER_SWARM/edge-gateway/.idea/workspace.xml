@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6518a2ae-1ac8-4ad2-bd95-aa42447adeea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../edge-gatewayupdate/src/main/java/com/imranmadbar/config/SwaggerConfigEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../edge-gatewayupdate/src/main/java/com/imranmadbar/config/SwaggerRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edge-gatewayupdate/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../edge-gatewayupdate/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edge-gatewayupdate/src/main/java/com/imranmadbar/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edge-gatewayupdate/src/main/java/com/imranmadbar/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../student-service/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="edge-gateway" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="edge-gateway" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="edge-gateway" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="26gs8zXJEUxTQSOatL3kOxsvAMp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../edge-gatewayupdate" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Z_MY_COMPUTER\1MD_IMRAN_HOSSAIN\PROJECT\MY_PROD\MICROSERVICE_WORKSHOP_TWO\BLAHUB_SNAPSHORT\edge-gateway" />
+      <recent name="C:\Z_MY_COMPUTER\1MD_IMRAN_HOSSAIN\PROJECT\MY_PROD\MICROSERVICE_WORKSHOP_TWO\BLAHUB_SNAPSHORT\edge-gateway\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EdgeGetewayApplication">
+    <configuration name="edge-gateway [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="edge-gateway [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EdgeGetewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edge-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imranmadbar.EdgeGetewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.edge-gateway [clean]" />
+      <item itemvalue="Gradle.edge-gateway [build]" />
+      <item itemvalue="Spring Boot.EdgeGetewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.edge-gateway [build]" />
+        <item itemvalue="Gradle.edge-gateway [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6518a2ae-1ac8-4ad2-bd95-aa42447adeea" name="Default Changelist" comment="" />
+      <created>1647856407248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647856407248</updated>
+      <workItem from="1647856410209" duration="2705000" />
+      <workItem from="1648099281407" duration="1406000" />
+      <workItem from="1648115621032" duration="1962000" />
+      <workItem from="1648457349153" duration="2891000" />
+      <workItem from="1648717763758" duration="5000" />
+      <workItem from="1648719706983" duration="3547000" />
+      <workItem from="1648954855950" duration="3870000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647856871713">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1647856871713" />
+    <state x="371" y="130" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1647856860787">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="130" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1647856860787" />
+    <state width="422" height="438" key="DebuggerActiveHint" timestamp="1648955170079">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="422" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1648955170079" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1648955258587">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1648955258587" />
+    <state width="1237" height="20" key="GridCell.Tab.0.bottom" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.0.center" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.0.left" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.0.right" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.1.bottom" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.1.center" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.1.left" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.1.right" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.2.bottom" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.2.center" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.2.left" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state width="1237" height="20" key="GridCell.Tab.2.right" timestamp="1649000240625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="20" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1649000240625" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1647856961319">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1647856961319" />
+    <state x="123" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1648955026144">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="123" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1648955026144" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1647858990416">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1647858990416" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imranmadbar/config/SwaggerConfig.java</url>
+          <line>37</line>
+          <properties field="discoveryClient" class="com.imranmadbar.config.SwaggerConfig" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imranmadbar/config/SwaggerConfig.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imranmadbar/config/SwaggerConfig.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imranmadbar/config/SwaggerConfig.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imranmadbar/config/SwaggerConfig.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imranmadbar/config/SwaggerConfig.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imranmadbar/config/SwaggerConfig.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imranmadbar/config/SwaggerConfig.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imranmadbar/config/SwaggerConfig.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

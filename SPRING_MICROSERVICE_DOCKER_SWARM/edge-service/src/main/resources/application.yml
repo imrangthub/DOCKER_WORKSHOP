@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: edge-service
+  config:
+    import: ${CONFIG_SERVER:configserver:http://localhost:9091}

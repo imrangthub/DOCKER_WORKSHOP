@@ -1,0 +1,25 @@
+server:
+  port: ${PORT:9090}
+dmz:
+  microservices: config-service,edge-gateway,edge-service,guardian,discovery-eureka
+spring:
+  application:
+    name: edge-gateway
+  config:
+    import: ${CONFIG_SERVER:configserver:http://localhost:9091}
+logging:
+  level:
+    org:
+      zalando:
+        logbook: OFF
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9092/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info

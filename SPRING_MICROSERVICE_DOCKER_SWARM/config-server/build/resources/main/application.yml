@@ -1,0 +1,28 @@
+server:
+  port: ${PORT:9091}
+spring:
+  application:
+    name: config-service
+  profiles:
+    active: native
+  cloud:
+    config:
+#      server:
+#        git:
+#          uri: https://github.com/imrangthub/central-configuration-repo.git
+      server:
+        allowOverride: true
+        native:
+          searchLocations: file:///C:/Z_MY_COMPUTER/1MD_IMRAN_HOSSAIN\PROJECT/MY_PROD/MICROSERVICE_WORKSHOP_TWO/BLAHUB_SNAPSHORT/central-configuration-local
+eureka:
+  instance:
+    hostname: localhost
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9092/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info
