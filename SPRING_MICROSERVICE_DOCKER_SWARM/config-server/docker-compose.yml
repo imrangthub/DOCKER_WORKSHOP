@@ -19,6 +19,7 @@ services:
       - bahs_net
   bahsEdgeGateway:
     image: imranmadbar/bahs-edge-gateway
+    restart: on-failure
     depends_on:
       - bahsConfigServer
       - bahsDiscoveryEureka
@@ -59,3 +60,4 @@ networks:
   bahs_net:
     name: bahs_net
     driver: bridge
+
