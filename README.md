@@ -100,5 +100,14 @@ docker-compose:
 	  bahs_net:
 		name: bahs_net
 
+
+docker-swarm:
+
+	=>docker stack ps bahsSwarmStack
+	=>docker stack rm bahsSwarmStack
+	=>docker service scale serviceId=5
+	=>docker stack deploy --compose-file docker-stack-swarm.yml bahsSwarmStack
+	=>docker service create --replicas 2 --name SpringBootWebApp -p 8080:8080 imranmadbar/hello-world-java-maven-web-spring-boot
+
   
 
