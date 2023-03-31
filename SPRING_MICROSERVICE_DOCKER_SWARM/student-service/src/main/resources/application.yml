@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: student-service
+  config:
+    #import: ${CONFIG_SERVER:configserver:http://172.19.0.3:9095}
+    import: ${CONFIG_SERVER:configserver:http://localhost:9091}
+
+  #cloud:
+  #  bootstrap:
+   #   enabled: true

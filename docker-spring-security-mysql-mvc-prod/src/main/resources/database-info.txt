@@ -1,0 +1,38 @@
+#Book Table
+-------------------------
+    create table book (
+       id bigint not null,
+        name varchar(255),
+        type varchar(255),
+        primary key (id)
+    )
+	
+#Role Table
+-------------------------
+    create table roles_tbl (
+       id bigint not null,
+        description varchar(255),
+        is_deleted boolean default false not null,
+        name varchar(255),
+        primary key (id)
+    )
+
+#User Table
+-------------------------
+    create table users_tbl (
+       id bigint not null,
+        full_name varchar(255),
+        password varchar(255),
+        username varchar(255),
+        primary key (id)
+    )
+	
+	#Role User Mapping Table
+-------------------------
+    create table users_roles_tbl (
+       id bigint not null,
+        is_deleted boolean default false not null,
+        role_id bigint,
+        user_id bigint,
+        primary key (id)
+    )

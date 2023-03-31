@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Book | imranmadbar</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#" th:href="@{/}">imranmadbar </a> <a
+					class="navbar-brand" href="#" th:href="@{/login}">Login</a> <a
+					class="navbar-brand" href="#" th:href="@{/logout}">Logout</a>
+			</div>
+		</div>
+	</nav>
+	<br>
+	<br>
+	<main role="main" class="container">
+		<div class="jumbotron">
+			<h2>Welcome to Book CRUD</h2>
+			<p class="lead">This CRUD Operation done using
+				Spring data jpa.</p>
+			<a class="btn btn-lg btn-primary" href="/book/create" role="button">Add
+				Book</a>
+		</div>
+	</main>
+	<div class="container">
+		<table class="table">
+			<tr>
+				<th>Book Name</th>
+				<th>Type</th>
+				<th>Action</th>
+			</tr>
+			<tr th:each="bookObj : ${bookList}">
+				<td th:text="${bookObj.name}"></td>
+				<td th:text="${bookObj.type}"></td>
+				<td><a th:href="@{/book/view/{id}(id=${bookObj.id})}">View</a>
+					| <a th:href="@{/book/edit/{id}(id=${bookObj.id})}">Edit</a> | <a
+					th:href="@{/book/delete/{id}(id=${bookObj.id})}">Delete</a></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

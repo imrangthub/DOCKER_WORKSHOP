@@ -1,0 +1,19 @@
+version: "3"
+services:
+  docker-spring-boot-restcall-consumer:
+    image: imranmadbar/docker-spring-boot-restcall-consumer
+    ports:
+      - "8282:8282"
+    networks:
+      - consumer-producer-net
+    depends_on:
+      - docker-spring-boot-restcall-producer
+  docker-spring-boot-restcall-producer:
+    image: imranmadbar/docker-spring-boot-restcall-producer
+    ports:
+      - "8181:8181"
+    networks:
+      - consumer-producer-net
+networks:
+  consumer-producer-net:
+  

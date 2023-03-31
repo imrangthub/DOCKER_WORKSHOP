@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>user | imranmadbar</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#" th:href="@{/}">imranmadbar </a> <a
+					class="navbar-brand" href="#" th:href="@{/login}">Login</a> <a
+					class="navbar-brand" href="#" th:href="@{/logout}">Logout</a>
+			</div>
+		</div>
+	</nav>
+	<br>
+	<br>
+	<main role="main" class="container">
+		<div class="jumbotron">
+			<h2>Update user</h2>
+		</div>
+	</main>
+
+	<div class="container">
+		<form action="#" th:action="@{/user/update}" th:object="${userObj}"
+			method="post">
+			<div class="form-group">
+				<label for="email">User Name:</label> <input class="form-control"
+					type="text" th:field="*{username}" id="name"
+					placeholder="User Name">
+			</div>
+			<div class="form-group">
+				<label for="fullName">Full Name:</label> <input class="form-control"
+					type="text" th:field="*{fullName}" id="fullName"
+					placeholder="Full Name">
+			</div>
+			<div class="form-group">
+				<label for="password">Password:</label> <input class="form-control"
+					type="password" th:field="*{password}" id="password"
+					placeholder="User Name">
+			</div>
+			<input type="hidden" th:field="*{id}" id="id">
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+	</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+server:
+  port: 8888
+eureka:
+  instance:
+    hostname: localhost
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9092/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

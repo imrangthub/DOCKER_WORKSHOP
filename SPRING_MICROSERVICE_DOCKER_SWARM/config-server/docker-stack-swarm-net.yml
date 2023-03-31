@@ -1,0 +1,63 @@
+version: "3.9"
+services:
+  bahsConfigServer:
+    image: imranmadbar/bahs-config-server
+    restart: on-failure
+    environment:
+      - ENV_EUREKA_URL=http://bahsDiscoveryEureka:9092/eureka/
+    ports:
+      - "9091:9091"
+    networks:
+      - bahs_net_swarm
+  bahsDiscoveryEureka:
+    image: imranmadbar/bahs-discovery-eureka
+    depends_on:
+      - bahsConfigServer
+    ports:
+      - "9092:9092"
+    networks:
+      - bahs_net_swarm
+  bahsEdgeGateway:
+    image: imranmadbar/bahs-edge-gateway
+    restart: on-failure
+    depends_on:
+      - bahsConfigServer
+      - bahsDiscoveryEureka
+    environment:
+      - ENV_EUREKA_URL=http://bahsDiscoveryEureka:9092/eureka/
+      - ENV_CONFIG_SERVER_URL=configserver:http://bahsConfigServer:9091
+    ports:
+      - "9090:9090"
+    networks:
+      - bahs_net_swarm
+  bahsStudentServer:
+    image: imranmadbar/bahs-student-service
+    restart: on-failure
+    depends_on:
+      - bahsConfigServer
+      - bahsDiscoveryEureka
+    environment:
+      - ENV_EUREKA_URL=http://bahsDiscoveryEureka:9092/eureka/
+      - ENV_CONFIG_SERVER_URL=configserver:http://bahsConfigServer:9091
+    ports:
+      - "8081:8081"
+    networks:
+      - bahs_net_swarm
+  bahsCourseServer:
+    image: imranmadbar/bahs-course-service
+    restart: on-failure
+    depends_on:
+      - bahsConfigServer
+      - bahsDiscoveryEureka
+    environment:
+      - ENV_EUREKA_URL=http://bahsDiscoveryEureka:9092/eureka/
+      - ENV_CONFIG_SERVER_URL=configserver:http://bahsConfigServer:9091
+    ports:
+      - "8082:8082"
+    networks:
+      - bahs_net_swarm
+networks:
+  bahs_net_swarm:
+    name: bahs_net_swarm
+    driver: overlay
+

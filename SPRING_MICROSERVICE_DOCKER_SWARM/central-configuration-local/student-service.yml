@@ -1,0 +1,28 @@
+
+server:
+  port: 8081
+simple:
+  envVal: This is a simple env value of default Update.
+---
+spring:
+  config:
+    activate:
+      on-profile: default | dev
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 8181
+simple:
+  envVal: This is a simple env value of test profile.
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+server:
+  port: 8881
+simple:
+  envVal: This is a simple env value of prod profile.

@@ -1,0 +1,31 @@
+server:
+  port: 9090
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+dmz:
+  microservices: config-service,gateway,edge-service,guardian,discovery-eureka
+---
+spring:
+  config:
+    activate:
+      on-profile: default | dev
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 9190
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+server:
+  port: 9990
