@@ -149,7 +149,7 @@ BahsSnapshort Docker:
 	=>docker service create --replicas 2 --name SpringBootWebApp -p 8080:8080 imranmadbar/hello-world-java-maven-web-spring-boot
 	
 	
-# Inatall lstest docker with compose aws ec2 user-data:
+# Inatall latest docker version with compose for aws ubuntu ec2 user-data:
 
       #!/bin/bash
       # by:imranmadbar@gmail.com
